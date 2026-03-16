@@ -1,0 +1,5 @@
+{
+  "name": "Skills Cleaner",
+  "description": "A developer tool for managing and cleaning environment skills for AI agents.",
+  "requestFramePermissions": []
+}

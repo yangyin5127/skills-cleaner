@@ -82,21 +82,13 @@ export default function App() {
       const agentConfigs = await GetAgents();
       const agentsWithIcons: Agent[] = agentConfigs.map(agent => {
         let icon = 'code';
-        switch (agent.id) {
-          case 'gemini':
-            icon = geminiIcon;
+        for (const key in iconMap) {
+          if (agent.path.toLowerCase().includes(key)) {
+            icon = iconMap[key];
             break;
-          case 'claude':
-            icon = claudeIcon;
-            break;
-          case 'qwen':
-            icon = qwenIcon;
-            break;
-          case 'opencode':
-            icon = 'terminal';
-            break;
-        }
+          }
 
+        }
         return { ...agent, icon };
       });
       setAgents(agentsWithIcons);

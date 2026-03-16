@@ -69,7 +69,7 @@ wails build
 - **Visual Studio Code**: `~/.copilot/skills/`
 - **Cursor**: `~/.cursor/skills/`
 - **Antigravity**: `~/.antigravity/skills/`
-...
+- more ...
 
 ## 项目结构
 

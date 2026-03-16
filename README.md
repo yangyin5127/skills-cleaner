@@ -69,7 +69,7 @@ After building, the executable will be located in the `build/bin/` directory.
 - **Visual Studio Code**: `~/.copilot/skills/`
 - **Cursor**: `~/.cursor/skills/`
 - **Antigravity**: `~/.antigravity/skills/`
-...
+- more ...
 
 ## Project Structure
 
